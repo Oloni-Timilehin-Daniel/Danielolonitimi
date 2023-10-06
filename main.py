@@ -1,0 +1,15 @@
+languages=("germany","korean","yoruba","chinese","french","english","jamaican")
+print(languages)
+print("the length of tuple is", len(languages))
+print("*******SETS******")
+set1={1,2,1,5,3,2,5,8,5,9,12,2,23}
+print("this set is", set1)
+print("the length of set1 is", len(set1))
+set2={2,3,4,5,6,7,8,9,10,11,12,13,14}
+print("this is the second set", set2)
+print("****UNION******")
+print("the union of the two sets is", set1.union(set2))
+print("*****INTERSECTION*******")
+print("the intersection between the two sets is", set1.intersection(set2))
+print("the unique items in the two sets is", set1^set2)
+print("the difference between set1 and set2 is", set2-set1)
